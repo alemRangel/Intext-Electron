@@ -1,0 +1,37 @@
+/*! ./../process/browser.js */
+
+/*! ./../webpack/buildin/global.js */
+
+/*! ./../webpack/buildin/module.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/domurl/url.min.js (<- Module is not an ECMAScript module) */
+
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+
+/*! all exports used */
+
+/*! exports used: default */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
+  \***********************************/
+
+/*!****************************************!*\
+  !*** ./node_modules/domurl/url.min.js ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+
+/*!*****************************************************!*\
+  !*** ./public/src/js/settings/index.js + 1 modules ***!
+  \*****************************************************/

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('views/partials/base/meta'); %>
+ <%- include('views/partials/base/styles'); %>
+</head>
+
+
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+
+  <div class="wrapper">
+    <%- include('views/partials/components/sidenav'); %>
+    <div class="main">
+      <%- include('views/partials/components/navbar'); %>
+      <main class="content">
+
+
+        <h1>Result example</h1>
+        <h3>Form data</h3>
+        <p><%= nombre %></p>
+        <p onclick="regresar(event)">Return</a>
+      </main>
+    </div>
+  </div>
+
+  <%- include('views/partials/base/scripts'); %>
+
+</body>
+<script src="./renderer/index.js"></script>
+</html>

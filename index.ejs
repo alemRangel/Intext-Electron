@@ -1,0 +1,40 @@
+<html>
+<head>
+    <%- include('views/partials/base/meta'); %>
+   <%- include('views/partials/base/styles'); %>
+</head>
+<body data-theme="default" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+
+  <div class="wrapper">
+    <%- include('views/partials/components/sidenav'); %>
+    <div class="main">
+      <%- include('views/partials/components/navbar'); %>
+      <main class="content">
+
+
+        <h1>Render example</h1>
+        <hr/>
+        <h3>Dummy message</h3>
+        <p><%= dummy_message %></p>
+        <p><%= url %></p>
+        <hr/>
+        <h3>Dummy list</h3>
+        <ul>
+          <% for(dummy of dummy_data) {%>
+            <li><%= dummy.name %></li>
+         <% } %>
+        </ul>
+
+        <h3>Dummy form</h3>
+        <form name="form" onSubmit="send(event)">
+          <input type="text" name="model" id="nombre"></input>
+          <input type="submit" value="Send"></input>
+        </form>
+        <a href='views/index2'>Hola</a>
+      </main>
+    </div>
+  </div>
+  <%- include('views/partials/base/scripts'); %>
+</body>
+  <script src="./renderer/index.js"></script>
+</html>
